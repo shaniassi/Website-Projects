@@ -1,0 +1,313 @@
+@font-face {
+    font-family: "Imperial Script";
+    src: url("path/to/imperial-script.ttf") format("truetype");
+  }
+  
+  html,
+  body {
+    height: 100%; /* Set height to 100% */
+    width: 100%; /* Set width to 100% */
+    padding: 0; /* Remove any default padding */
+    margin: 0px;
+    background-color: #fffaec;
+  }
+  
+  h1 {
+    font-family: "Inika";
+    color: 504237;
+    text-align: left;
+  }
+  
+  .rectangle-header {
+    background-color: #a7a88a; /* Background color of the rectangle box */
+    padding: 10px; /* Padding around the content inside the box */
+    border-bottom: 2px solid #333; /* Optional: Adding a bottom border */
+    width: 1421px; /* Set the width of the rectangle box to 300 pixels */
+    height: 10px; /* Set the height of the rectangle box to 200 pixels */
+  }
+  
+  .rectangle-header p {
+    margin: 0px 0; /* Adjust margin for the paragraph */
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .second-header img[src="logo.png"] {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 20px;
+    top: 40px;
+  }
+  
+  .second-header h1 {
+    position: absolute;
+    width: 321px;
+    height: 14px;
+    left: 140px;
+    top: 30px;
+  
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 65px;
+    color: #504237;
+  }
+  
+  .second-header h3 {
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    left: 140px;
+    top: 88px;
+  
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 26px;
+    color: #504237;
+  }
+  
+  .second-header fieldset {
+    position: absolute;
+    width: 825px;
+    height: 20px;
+    left: 373px;
+    top: 80px;
+  
+    background: #f8f2e0;
+    border: 2px solid #504237;
+    border-radius: 9px;
+  }
+  
+  .second-header label {
+    position: absolute;
+    width: 161px;
+    height: 31px;
+    left: 18px;
+    top: 4px;
+  
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .second-header svg {
+    position: absolute;
+    width: 95px;
+    height: 65px;
+    left: 1158px;
+    top: 67px;
+  }
+  
+  .second-header img[src="buttons.png"] {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 1265px;
+    top: 76px;
+  }
+  
+  .second-header .hr {
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 160px;
+  
+    border: 1px solid #000000;
+    transform: rotate(180deg);
+  }
+  
+  .third-header h3.first {
+    position: absolute;
+    width: 66px;
+    height: 31px;
+    left: 210px;
+    top: 158px;
+  
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #964f4c;
+  }
+  
+  .third-header h3.second {
+    position: absolute;
+    width: 66px;
+    height: 31px;
+    left: 350px;
+    top: 158px;
+  
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #964f4c;
+  }
+  
+  .third-header h3.third {
+    position: absolute;
+    width: 66px;
+    height: 31px;
+    left: 510px;
+    top: 158px;
+  
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #964f4c;
+  }
+  
+  .third-header h3.fourth {
+    position: absolute;
+    width: 168px;
+    height: 31px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 148px;
+  
+    font-family: "Imperial Script";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 31px;
+    color: #964f4c;
+  }
+  
+  .third-header h3.fifth {
+    position: absolute;
+    width: 66px;
+    height: 31px;
+    left: 845px;
+    top: 158px;
+  
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #964f4c;
+  }
+  
+  .third-header h3.sixth {
+    position: absolute;
+    width: 168px;
+    height: 31px;
+    left: 987px;
+    top: 158px;
+  
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #964f4c;
+  }
+  
+  .third-header h3.seventh {
+    position: absolute;
+    width: 168px;
+    height: 31px;
+    left: 1155px;
+    top: 158px;
+  
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    color: #964f4c;
+  }
+  
+  .third-header .hr {
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    bottom: 563px;
+    border: 1px solid #000000;
+    transform: rotate(180deg);
+  }
+  
+  .third-header img {
+    position: absolute;
+    width: 1000px;
+    height: 400px;
+    top: 255px;
+    left: 225px;
+    background: url(SerenePages.png);
+    border: 1px solid #000000;
+  }
+  
+  .third-header .elipse1 {
+    position: absolute;
+    width: 12px; /* Adjust width as needed */
+    height: 12px; /* Adjust height as needed */
+    background-color: #fffaec; /* Change color as needed */
+    border: 1px solid #964f4c;
+    border-radius: 50%; /* Makes it an ellipse */
+    top: 665px;
+    left: 710px;
+  }
+  
+  .third-header .elipse2 {
+    position: absolute;
+    width: 12px; /* Adjust width as needed */
+    height: 12px; /* Adjust height as needed */
+    background-color: #964f4c; /* Change color as needed */
+    border: 1px solid #964f4c;
+    border-radius: 50%; /* Makes it an ellipse */
+    top: 665px;
+    left: 730px;
+  }
+  
+  .third-header .elipse3 {
+    position: absolute;
+    width: 12px; /* Adjust width as needed */
+    height: 12px; /* Adjust height as needed */
+    background-color: #fffaec; /* Change color as needed */
+    border: 1px solid #964f4c;
+    border-radius: 50%; /* Makes it an ellipse */
+    top: 665px;
+    left: 750px;
+  }
+  
+  .books .Trending {
+    position: absolute;
+    width: 185px;
+    height: 31px;
+    left: 47px;
+    top: 700px;
+  
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+  
+    color: #964f4c;
+  }
+  
+  .books .hr {
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 765px;
+  
+    border: 1px solid #000000;
+    transform: rotate(180deg);
+  }
+  
+  
